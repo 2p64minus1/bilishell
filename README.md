@@ -13,12 +13,14 @@ A lightweight Bilibili video downloader developed in Python, designed for resear
 * 自动识别并获取视频的最高音质音频流。
 * 利用 FFmpeg 无损合并音视频。
 * 支持清理文件名非法字符，确保多平台兼容。
+* 自动识别音频流是否存在并增加了报错信息
 
 This project utilizes the Python `requests` library and `FFmpeg` core components to parse and merge Bilibili video and audio streams. Key features include:
 * Auto-detection of the highest resolution video streams (DASH).
 * Auto-detection of the highest quality audio streams.
 * Lossless merging of audio and video using FFmpeg.
 * Sanitization of filenames for cross-platform compatibility.
+*Automatically detects the existence of the audio stream and adds error messages.
 
 ---
 
